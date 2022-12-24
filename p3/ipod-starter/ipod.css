@@ -1,0 +1,178 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	width: 300px;
+	height: 45px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #e6ccff;
+}
+.back-button {
+	float: left;
+	width: 60px;
+	height: 30px;
+	border: 2px solid white;
+	background-color: LightGrey;
+	margin: 5px;
+	color: darkmagenta;
+
+}
+
+.back-button span{
+	font-size: 25px;
+}
+
+/* 
+	Albums 
+			*/
+
+.albums{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 0.6em;
+}
+
+.albums-album-wrapper {
+	padding: 2px;
+}
+
+.albums-album-art {
+	width: 130px;
+	height: 130px;
+	float: left;
+	padding: 7px;
+	margin-top: 10px;
+	border: 2px
+}
+
+.albums-album-name {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 5px;
+
+}
+
+.albums-artist-name {
+	color: black; 
+	text-align: center; 
+	font-style: italic;
+	line-height: 1.5;
+	font-size: 13px;
+	margin: 0px;
+	margin-top: 5px;
+
+}
+
+/* 
+	Songs 
+			*/
+
+.songs-info-wrapper {
+	display: flex;
+	margin: 2px;
+}
+
+.songs-album-art {
+	width: 50%;
+	margin: 7px;
+}
+
+.songs-album-name {
+	color: black;
+	text-align: left;
+	font-size:x-large;
+	margin: 0%;
+}
+
+.songs-artist-name {
+	color: black;
+	text-align: left;
+	font-style: italic;
+	margin: 0%;
+}
+
+.songs-text-info {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin-left: 7px;
+}
+
+.songs-album-year {
+	color: black;
+	text-align: left;
+	margin: 0px;
+
+}
+
+.songs-list {
+	border-style: solid;
+	border-color: lightgray;
+	margin: 2px;
+	padding: 1.5px;
+}
+
+.songs-list-wrapper {
+	padding-inline-start: 25px;
+}
+
+/* 
+	Player 
+			*/
+.player-album-art {
+	
+}
+
+.player-song-info {
+	
+}
+
+#player-song-name {
+	
+}
+
+.volume-bar {
+	
+}
+
+.volume-level {
+	
+}
+
+.volume-rocker {
+	
+}
+
+.player-controls{
+	
+}
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}

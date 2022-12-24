@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Personal Wesite</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <meta charset="utf-8">
+   </head>
+   <body class="body">
+      <nav role="navigation " class="top-nav">
+         <ul>
+            <a href="index.html"><li role="list item" nav aria-current="page" > Home</li></a>
+            <a href="bio.html"><li role="list item"> About Me</li></a>
+            <a href="contact.html"><li role="list item"> Contact</li></a>
+            <a href="Fotopulos_resume_2022.pdf"><li role="list item"> Resume</li></a>
+            
+            <li> <a aria_haspopup= true aria-expanded="false" >Projects
+               <ul role="list of projects" class="pulldown-menu">
+                  <a href="roboticmanip.html"><li role="list item">Robotic Manipulation</li></a>
+               </ul>
+            </li>
+
+         </ul>
+      </nav>
+      <main>
+
+      </main>
+      
+      
+         <div class="top">
+            <h1 class="title">Rhodes Fotopulos </h1>
+      
+            <img
+               src="https://cdn.glitch.global/d144f19b-ad8a-4f86-a1fb-a069e355dd3a/5wwV5s1O_400x400.webp?v=1664198677571"
+               class="illustration"
+               alt="an image of goob yagoobian from meet the robinsons which is supposed to represent a profile picture of the author Rhodes Fotopulos"
+               title="It's me"
+               role="profile picture"
+            />
+            <div class="instructions">
+               <h2 class="welcome">
+               Welcome to my personal website, below you can find a few of my projects or find out more about me using the menu at the top
+               </h2></div>
+         </div>
+
+         <div class="wrapper">
+            <div class="projects" role="main">
+               <h2 class="projects_t">Projects:</h2>
+            
+               <div class="project1">
+                  <h3>Robotic Manipulation</h3>
+                  <img src="robotmove.gif" alt="gif of robot moving" role="gif of robot moving picking up a block and putting it in the correct position">
+                  <div>
+                     <p>Used inverse kinematics to calculate path of a mobile robot</p>
+                  </div>
+                  <a href="roboticmanip.html"><button type="button" class="readm">Read more</button></a>
+               </div>
+            <div class="project2">
+               <h3>Colision modeling</h3>
+               <img src="boxj.gif" alt="Video of collision simulation" role="A gif of a 2 dimensional simulation of a jack in a box">
+               <p>In this project I used lagrangians in python to model and animate a pin falling <br>
+                  and coliding with a border box</p>
+            </div>
+            </div>
+         </div>
+         </div>
+   </body>
+
+   <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-data">
+              <a href="https://www.linkedin.com/in/rhodes-fotopulos-1ba113203/" alt="LinkedIn" title="LinkedIn Link" role="link" class="fa fa-linkedin"></a>
+              <a href="https://github.com/Rhodes-F" alt="Github" title="Git hub Link" role="link" class="fa fa-github"></a>
+          </div>
+      </div>
+  </footer>
+
+
+</html>

@@ -1,0 +1,293 @@
+
+/* ============== Nav bar ============== */
+nav.top-nav{
+   background-color: rgba(255, 255, 255, 0.878);
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.248);
+}
+
+nav [aria-current= page]{
+   font-weight: bold;
+   background-color: #00000044;
+
+}
+
+main{
+   margin-top: 0;
+   margin-left: 2em;
+}
+
+nav.top-nav li{
+   display: inline-block;
+   font-family: HK Grotesk;
+   font-weight: normal;
+   margin: 10px;
+   user-select: none;
+   color: black;
+}
+nav.top-nav li:hover{
+   color: rgb(98, 98, 98);
+}
+
+nav.top-nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly; 
+}
+nav.top-nav .pulldown-menu li{
+   display: block;
+   
+}
+nav.top-nav .pulldown-menu{
+   display: none;
+   position: absolute;
+   border: none;
+   background-color: rgba(255, 255, 255, 0.712);
+}
+
+nav.top-nav li:hover .pulldown-menu{
+   display: block;
+}
+
+
+
+
+:root {
+   --color-bg: black;
+   --color-text-main: #000000;
+   --color-primary: #FFFF00;
+   --wrapper-height: 87vh;
+   --image-max-width: 300px;
+   --image-margin: 3rem;
+   --font-family: "HK Grotesk";
+   --font-family-header: "HK Grotesk";
+ }
+ 
+ /* Basic page style resets */
+ * {
+   box-sizing: border-box;
+ }
+ [hidden] {
+   display: none !important;
+ }
+
+
+
+
+
+ /* Import fonts */
+ @font-face {
+   font-family: HK Grotesk;
+   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+     format("opentype");
+ }
+ @font-face {
+   font-family: HK Grotesk;
+   font-weight: bold;
+   src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+     format("opentype");
+ }
+
+ body {
+   font-family: HK Grotesk;
+   background-color: white;
+ }
+ 
+ 
+ /* Page structure */
+ .wrapper {
+   min-height: var(--wrapper-height);
+   display: grid;
+   place-items: center;
+   margin: 0 1rem;
+ }
+
+ /* ============== Projects page structure ============== */
+ .projects {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .top {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   margin: 0;
+   background-color: rgb(7, 63, 7);
+ }
+
+ .title {
+   color: white;
+   font-family: HK Grotesk;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 100px;
+   line-height: 105%;
+   margin: 0;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0) ;
+   margin-top: 100px;
+ }
+ 
+ .illustration {
+   max-width: 100%;
+   max-height: var(--image-max-width);
+   margin-top: var(--image-margin);
+   border: rgba(0, 0, 0, 0);
+   border-radius: 10000000000000px;
+ }
+ 
+ .instructions {
+   margin: 1rem auto 0;
+   color: white;
+ }
+
+ .robotic_sim_desc{
+  font-size: large;
+ }
+
+ /* ============== button formating ============== */
+ 
+ button,
+ input {
+   font-family: inherit;
+   font-size: 100%;
+   background: #c5c5c5;
+   border: 10px solid white;
+   box-sizing: border-box;
+   border-radius: 1000000px;
+   padding: 0.5rem 1rem;
+   transition: 500ms;
+ }
+
+ button:hover{
+  background: #8b8b8b;
+  cursor: pointer;
+ }
+ .readm:active{
+   transform: translateY(5px);
+ }
+
+
+  /* ============== about me formatting ============== */
+
+ .bio{
+    margin: 30px;
+    color: white;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 105%;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+ }
+
+ .projects_t{
+  text-align: left;
+  margin-right: 700px;
+  font-size: 40px;
+ }
+
+ .welcome{
+  margin: 30px;
+  color: white;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 105%;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+ }
+
+ .project2{
+  margin-top: 50px;
+  
+ }
+
+ .descrption_bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ============== I frame formatting ============== */
+
+.youtube{
+  margin-top: 60px;
+}
+
+/* ============== Footer ==============  */ 
+.footer{
+  background-color: rgb(7, 63, 7);
+  margin-top: auto;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* ============== Social icons ============== */
+.fa {
+  padding: 20px;
+  font-size: 90px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa:active{
+  opacity: 0.5;
+}
+
+.fa-linkedin {
+  background: rgb(7, 63, 7);
+  color: white;
+  font-size: larger;
+}
+
+.fa-github {
+  background:  rgb(7, 63, 7);
+ color: white;
+ font-size: larger;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+#projects_rob{
+  margin-left: 15%;
+  margin-right: 15%;
+}

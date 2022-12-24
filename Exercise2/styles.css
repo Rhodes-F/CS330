@@ -1,0 +1,14 @@
+#Aheader {
+    color: orange;
+ }
+ .paragraph1 {
+    color:blueviolet;
+ }
+
+   a:hover {
+    color: yellow;
+  }
+
+   .body .paragraph2{
+   color: lime;
+  }

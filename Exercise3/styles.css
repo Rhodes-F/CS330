@@ -1,0 +1,17 @@
+
+p{
+   font-size: 24px;
+   text-align: center;
+}
+h3{
+   color:darkgray;
+   font-size: 18px;
+}
+
+   a:hover {
+    color: yellow;
+  }
+
+   .body .paragraph2{
+   color: lime;
+  }

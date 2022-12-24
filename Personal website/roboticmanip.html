@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Personal Wesite</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <meta charset="utf-8">
+   </head>
+   <body class="body">
+      <nav role="navigation " class="top-nav">
+         <ul>
+            <a href="index.html"><li role="list item"> Home</li></a>
+            <a href="bio.html"><li role="list item"> About Me</li></a>
+            <a href="contact.html"><li role="list item"> Contact</li></a>
+            <a href="Fotopulos_resume_2022.pdf"><li role="list item"> Resume</li></a>
+            
+            <li nav aria-current="page"> <a aria_haspopup= true aria-expanded="false" >Projects
+               <ul role="list" class="pulldown-menu" nav aria-current="page">
+                  <a href="roboticmanip.html"><li role="list item">Robotic Manipulation</li></a>
+               </ul>
+            </li>
+
+         </ul>
+      </nav>
+      <main>
+
+      </main>
+      
+      
+         <div class="top">
+            <h1 class="title">Robotic Manipulation </h1>
+            <div class="instructions">
+               <h2 class="welcome">
+               Welcome to the project page for robotic manipulation ME 449 at Northwestern University. 
+               Below you will find a description of the project, a video of the robot in action, and a link to the code.
+               </h2></div>
+         </div>
+
+         <div class="wrapper">
+            <div class="projects_rob" role="main">
+               <div class="project1">
+                  <h3>Robotic Manipulation</h3>
+                  <img src="robotmove.gif" alt="gif of robot moving" role="gif of robot moving picking up a block and putting it in the correct position">
+                  <div class="robotic_sim_desc">
+                     <p>In this class we used a four wheeled robot with omni-wheels and a 6 degree of freedom<br> 
+                        arm to pick a block up and move it to a specified location. The robot was controlled using <br> 
+                        inverse kinematics to calculate the path of the robot and the arm. We used the modern <br>
+                        robotics library in Python to calculate the inverse kinematics.The robot was then simulated <br>
+                        using CopeliaSim. The code for the project as well as additional information can be found <br>
+                        on my github page. </p>
+                     </p>
+                  </div>
+                  <a role= "link" href="https://github.com/Rhodes-F/ME449"><button type="button" class="readm">View on Github</button></a>
+            </div>
+         </div>
+         </div>
+   </body>
+
+   <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-data">
+              <a href="https://www.linkedin.com/in/rhodes-fotopulos-1ba113203/" alt="LinkedIn" title="LinkedIn Link" role="link" class="fa fa-linkedin"></a>
+              <a href="https://github.com/Rhodes-F" alt="Github" title="Git hub Link" role="link" class="fa fa-github"></a>
+          </div>
+      </div>
+  </footer>
+
+
+</html>
